@@ -2,6 +2,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="PussyIsland.Audio.SoundContainer" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
+    <type fullname="PussyIsland.Screens.Board.QuestIconsConfig" preserve="all" />
     <type fullname="PussyIsland.Audio.PitchData" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Audio.SideEffectData" preserve="nothing" serialized="true" />
     <type fullname="PussyIsland.Audio.Sound" preserve="nothing" serialized="true" />
