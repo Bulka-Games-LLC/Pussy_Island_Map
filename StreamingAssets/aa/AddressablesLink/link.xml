@@ -1,8 +1,12 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="PussyIsland.Audio.SoundContainer" preserve="all" />
+    <type fullname="PussyIsland.Characters.CharacterContentConfig" preserve="all" />
+    <type fullname="PussyIsland.Characters.CharactersConfig" preserve="all" />
+    <type fullname="PussyIsland.CommonTools.AnimationWrapper" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
     <type fullname="PussyIsland.Screens.Board.QuestIconsConfig" preserve="all" />
+    <type fullname="PussyIsland.World.BuildingPart" preserve="all" />
     <type fullname="PussyIsland.World.BuildingsCollection" preserve="all" />
     <type fullname="PussyIsland.World.BuildingView" preserve="all" />
     <type fullname="PussyIsland.World.MapBgView" preserve="all" />
@@ -29,6 +33,9 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
