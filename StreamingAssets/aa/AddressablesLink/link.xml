@@ -5,7 +5,6 @@
     <type fullname="PussyIsland.Characters.CharactersConfig" preserve="all" />
     <type fullname="PussyIsland.CommonTools.AnimationWrapper" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
-    <type fullname="PussyIsland.Screens.Board.QuestIconsConfig" preserve="all" />
     <type fullname="PussyIsland.World.BuildingPart" preserve="all" />
     <type fullname="PussyIsland.World.BuildingsCollection" preserve="all" />
     <type fullname="PussyIsland.World.BuildingView" preserve="all" />
