@@ -1,5 +1,5 @@
 (function () {
-  const MIN_ASPECT = 16  9;
+  const MIN_ASPECT = 16/9;
 
   function resizeUnity() {
     const container = document.getElementById(unity-container);
