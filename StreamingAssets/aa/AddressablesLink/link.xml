@@ -6,7 +6,7 @@
     <type fullname="PussyIsland.CommonTools.AnimationWrapper" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.IntroPlayerLogic" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasePlayer" preserve="all" />
-    <type fullname="PussyIsland.Game.InitIntro.SkeletonStateContoller" preserve="all" />
+    <type fullname="PussyIsland.Game.InitIntro.SkeletonStateController" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.TransitionsHandler" preserve="all" />
     <type fullname="PussyIsland.Game.Localization.LocalizationTextMeshPro" preserve="all" />
     <type fullname="PussyIsland.Items.ItemsSpritesConfig" preserve="all" />
