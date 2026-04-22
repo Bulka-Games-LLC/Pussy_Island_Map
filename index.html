@@ -30,23 +30,9 @@
       var bar = document.querySelector("#progress-bar-primary");
 	var barParent = document.querySelector("#logo-div");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
-     
-        var div = document.createElement('div');
-        div.innerHTML = msg;
-        warningBanner.appendChild(div);
-        if (type == 'error') div.style = 'background: red; padding: 10px;';
-        else {
-          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() {
-            warningBanner.removeChild(div);
-            updateBannerVisibility();
-          }, 5000);
-        }
-        updateBannerVisibility();
-      }
-
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Test_Map.loader.js";
+
       var config = {
         dataUrl: buildUrl + "/Test_Map.data.unityweb",
         frameworkUrl: buildUrl + "/Test_Map.framework.js.unityweb",
@@ -67,16 +53,17 @@
 
       
 
+      canvas.style.background = "url('" + buildUrl + "/Test_Map.jpg') center / cover";
       //loadingBar.style.display = "block";
 
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
-          bar.style.width = 100 * progress + "%";
+          progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
 			  gameInstance = unityInstance;
-                //loadingBar.style.display = "none";
+                bar.style.display = "none";
                 fullscreenButton.onclick = () => {
                   unityInstance.SetFullscreen(1);
                 };
