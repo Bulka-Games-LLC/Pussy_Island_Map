@@ -1,7 +1,7 @@
 ﻿#unity-container {
     position: relative;
-    width: 100%;
-    height: calc(100% - 80px); /* ����� ��� ����� */
+    /*width: 100%;*/
+    /*height: calc(100% - 80px);  ����� ��� ����� */
     display: flex;
     justify-content: center;
     align-items: flex-start; /* ������� � ����� */
@@ -10,7 +10,7 @@
 
 .unity-wrapper {
     position: relative;
-    /*display: inline-block;*/
+    display: inline-block;
     background: #111;
 }
 
