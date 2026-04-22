@@ -1,16 +1,4 @@
-﻿html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: #000;
-    font-family: Arial, sans-serif;
-    background: url("background.jpg") center center no-repeat;
-    background-size: cover;
-    background-color: #000;
-    color: #ccc;
-}
-
-#unity-container {
+﻿#unity-container {
     position: relative;
     width: 100%;
     height: calc(100% - 80px); /* ����� ��� ����� */
