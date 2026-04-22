@@ -1,20 +1,19 @@
-﻿/*html, body {
+﻿html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     background: #000;
     font-family: Arial, sans-serif;
-    background: url("background.jpg") center center no-repeat;
+    background: url("background.png") center center no-repeat;
     background-size: cover;
     background-color: #000;
     color: #ccc;
-}*/
+}
 
 #unity-container {
     position: relative;
     justify-content: center;
-    /*background: transparent;*/
-    background: url("background.png") center center no-repeat;
+    background: transparent;
 }
 
 .unity-wrapper {
