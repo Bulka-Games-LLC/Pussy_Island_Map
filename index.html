@@ -20,7 +20,7 @@
 	  let gameInstance;
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
+      //var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
@@ -72,7 +72,7 @@
       
 
       canvas.style.background = "url('" + buildUrl + "/Test_Map.jpg') center / cover";
-      loadingBar.style.display = "block";
+      //loadingBar.style.display = "block";
 
       var script = document.createElement("script");
       script.src = loaderUrl;
@@ -81,7 +81,7 @@
           progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
 			  gameInstance = unityInstance;
-                loadingBar.style.display = "none";
+                //loadingBar.style.display = "none";
                 //fullscreenButton.onclick = () => {
                 //  unityInstance.SetFullscreen(1);
                 //};
