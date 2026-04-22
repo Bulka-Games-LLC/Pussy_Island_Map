@@ -3,7 +3,6 @@
     <type fullname="PussyIsland.Audio.SoundContainer" preserve="all" />
     <type fullname="PussyIsland.Characters.CharacterContentConfig" preserve="all" />
     <type fullname="PussyIsland.Characters.CharactersConfig" preserve="all" />
-    <type fullname="PussyIsland.CommonTools.AnimationWrapper" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.IntroPlayerLogic" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.PhrasePlayer" preserve="all" />
     <type fullname="PussyIsland.Game.InitIntro.SkeletonStateController" preserve="all" />
@@ -108,9 +107,6 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
