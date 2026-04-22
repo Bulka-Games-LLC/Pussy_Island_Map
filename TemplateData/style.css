@@ -14,7 +14,7 @@
     position: relative;
     justify-content: center;
     /*background: transparent;*/
-    background: url("background.jpg") center center no-repeat;
+    background: url("background.png") center center no-repeat;
 }
 
 .unity-wrapper {
