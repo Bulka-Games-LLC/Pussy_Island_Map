@@ -1,4 +1,4 @@
-﻿html, body {
+﻿/*html, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -8,12 +8,13 @@
     background-size: cover;
     background-color: #000;
     color: #ccc;
-}
+}*/
 
 #unity-container {
     position: relative;
     justify-content: center;
-    background: transparent;
+    /*background: transparent;*/
+    background: url("background.jpg") center center no-repeat;
 }
 
 .unity-wrapper {
