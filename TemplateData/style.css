@@ -1,16 +1,23 @@
-﻿#unity-container {
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #000;
+    font-family: Arial, sans-serif;
+    background: url("background.jpg") center center no-repeat;
+    background-size: cover;
+    background-color: #000;
+    color: #ccc;
+}
+
+#unity-container {
     position: relative;
-    /*width: 100%;*/
-    /*height: calc(100% - 80px);  ����� ��� ����� */
-    display: flex;
     justify-content: center;
-    align-items: flex-start; /* ������� � ����� */
     background: transparent;
 }
 
 .unity-wrapper {
     position: relative;
-    display: inline-block;
     background: #111;
 }
 

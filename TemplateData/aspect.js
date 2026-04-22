@@ -4,13 +4,12 @@
   const WIDTH_RATIO = 0.9;
 
   function resizeUnity() {
-    const container = document.getElementById("unity-container");
+    const container = document.getElementById("unity-wrapper");
     if (!container) return;
 
     const maxW = window.innerWidth * WIDTH_RATIO;
     const baseH = window.innerHeight * HEIGHT_RATIO;
 
-    // базово от высоты
     let h = baseH;
     let w = h * ASPECT;
 
